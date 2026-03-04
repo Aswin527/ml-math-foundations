@@ -1,6 +1,6 @@
 from vector import cosine_similarity
 
-def similarity_engine(query_vector, dataset):
+def find_similar(query_vector, dataset):
     
     best_score = -1
     best_item = None

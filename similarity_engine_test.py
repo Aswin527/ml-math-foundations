@@ -1,4 +1,4 @@
-from similarity_engine import find_most_similar 
+from similarity_engine import find_similar 
 
 dataset = {
     "movie1": [1, 1, 0, 1],
@@ -8,6 +8,6 @@ dataset = {
 
 query = [1, 0, 1, 1]
 
-result = find_most_similar(query, dataset)
+result = find_similar(query, dataset)
 
 print(result)
