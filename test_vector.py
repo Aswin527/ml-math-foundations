@@ -1,7 +1,7 @@
 import numpy as np
 from vector import magnitude, dot_product, cosine_similarity
 
-v1 = np.array([3, 4])
+v1 = np.array([10, 15])
 v2 = np.array([1, 2])
 
 print("Magnitude of v1:", magnitude(v1))
