@@ -14,20 +14,15 @@ def matrix_addition(A, B):
         result.append(row)
     return result
 
-def dot_product(A, B):
-    result = []
 
+def matrix_multiplication(A,B):
+    result = [[0,0],[0,0]]
     for i in range(2):
-        row = []
         for j in range(2):
-            sum_product = 0
             for k in range(2):
-                sum_product += A[i][k] * B[k][j]
-            row.append(sum_product)
-        result.append(row)
+                result[i][j] += A[i][k] * B[k][j]
     return result
 
-
 print("Matrix Addition", matrix_addition(A, B))
-print("Dot Product:", dot_product(A, B))
+print("Matrix Multiplication:",matrix_multiplication(A,B))
 

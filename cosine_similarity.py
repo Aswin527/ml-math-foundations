@@ -9,7 +9,7 @@
     
 '''
 
-import numoy as np
+import numpy as np
 
 def magnitude(v: np.ndarray) -> float:
     """Calculate the magnitude of a vector."""
